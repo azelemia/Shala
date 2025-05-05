@@ -1,0 +1,19 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between pictures */
+  margin: 20px;
+}
+
+.photo-frame {
+  border: 5px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background: white;
+}
+
+.photo-frame img {
+  width: 200px;
+  height: auto;
+  display: block;
+}
