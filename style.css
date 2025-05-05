@@ -434,4 +434,22 @@ body {
         font-size: 18px;
       }
       
-          
+          .horizontal-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 50px auto; /* adds space between the gallery and other content */
+}
+
+.photo-frame {
+  border: 3px solid #aaa;
+  padding: 5px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  background-color: white;
+}
+
+.photo-frame img {
+  width: 100px;
+  height: auto;
+  display: block;
+}
