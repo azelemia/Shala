@@ -1,3 +1,82 @@
+
+.navbar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right:8px;
+    padding-left: 15px;
+    text-decoration:none;
+}
+
+.navdiv{
+    display: flex;
+     align-items: center; 
+     justify-content: space-between;
+     text-decoration: none; 
+}
+.logo a{
+    font-size: 35px;
+     font-weight: 600; 
+     color: rgb(255, 255, 255); 
+     text-decoration: none;
+     font-weight: bolder;
+
+}
+.navbar a:hover{
+    background: rgb(232, 187, 105); 
+    -moz-outline-radius: round;
+}
+
+li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    Color:rgb(255, 255, 255); 
+     font-size: 18px; 
+     font-weight: bolder; 
+     margin-right: 25px;
+     text-decoration: none;
+}
+button{
+    color: rgb(241, 241, 246); 
+    margin-left: 20px; 
+    border-radius: 10px;
+     padding: 10px;
+      width: 90px;
+      font-weight: bolder;
+}
+
+
+.Home.png{
+    padding-right: 200px;
+}
+
+.home h3{
+    margin-bottom: 1rem;
+    font-size: 2.3rem;
+    margin-left:3rem;
+    color: azure;
+}
+.home h1{
+    font-size: 5rem;
+    font-weight: 600;
+    margin-top: 10rem ;
+    line-height: 1;
+   margin-right: 35rem;
+    color: rgb(255, 255, 255);
+    
+}
+.home p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin-left:3rem;
+    color:beige
+}
+.btn-group{
+    margin-left: 3rem;
+
+}
 .horizontal-gallery {
   display: flex;
   justify-content: center;
